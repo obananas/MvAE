@@ -2,7 +2,7 @@
 Source code of "MvAE: Learning Disentangled Representations with Cross-view Adversarial Alignment for Multi-View Clustering"
 
 ## Dataset
-Oringinal Datasets. It can be got from: https://github.com/wangsiwei2010/awesome-multi-view-clustering
+It can be got from: https://github.com/wangsiwei2010/awesome-multi-view-clustering
 
 ## Run
 Run the main.py on handwritten dataset with the followding command:
