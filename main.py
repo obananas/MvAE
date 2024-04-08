@@ -31,12 +31,12 @@ def orthogonal_loss(shared, specific):
 
 
 if __name__ == '__main__':
-    datasetname = "MSRCv1"     # handwritten
+    dataset_name = "MSRCv1"     # handwritten
     train_batch_size = 10000
     train_epoch = 300
     lr = 0.001
-    logger = Logger.get_logger(__file__, datasetname)
-    dataset, ins_num, view_num, nc, input_dims, _ = dataset_with_info(datasetname)
+    logger = Logger.get_logger(__file__, dataset_name)
+    dataset, ins_num, view_num, nc, input_dims, _ = dataset_with_info(dataset_name)
     train_loader = DataLoader(dataset, batch_size=train_batch_size, shuffle=False)
     test_loader = DataLoader(dataset, batch_size=100000, shuffle=False)
     ACC_array = np.zeros((6, 6))
