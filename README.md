@@ -1,4 +1,4 @@
-# MvAE
+# GMAE
 Source code of "Learning Disentangled Representations for Generalized Multi-view Clustering"
 
 ## Dataset
