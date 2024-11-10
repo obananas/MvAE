@@ -1,5 +1,5 @@
 # MvAE
-Source code of "MvAE: Learning Disentangled Representations with Cross-view Adversarial Alignment for Multi-View Clustering"
+Source code of "Learning Disentangled Representations for Generalized Multi-view Clustering"
 
 ## Dataset
 It can be got from: https://github.com/wangsiwei2010/awesome-multi-view-clustering
